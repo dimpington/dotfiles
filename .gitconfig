@@ -1,0 +1,15 @@
+[user]
+	email = emildaunfelt@live.se
+	name = dimpington
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[core]
+	editor = nano
+[alias]
+	st = status
+	br = branch
+	co = checkout
+	cm = commit -m
+	last = log -1 --oneline

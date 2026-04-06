@@ -11,6 +11,16 @@ alias gp="git push"
 alias ..="cd .."
 alias ...="cd ../.."
 
+# Navigation
+alias c="clear"
+alias h="history"
+
+# Git shortcuts (better workflow)
+alias gcm="git commit -m"
+alias gpl="git pull"
+alias gco="git checkout"
+alias gb="git branch"
+
 # History
 HISTSIZE=10000
 SAVEHIST=10000

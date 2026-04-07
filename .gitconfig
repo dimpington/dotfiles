@@ -13,3 +13,5 @@
 	co = checkout
 	cm = commit -m
 	last = log -1 --oneline
+[url "git@github.com:"]
+	insteadOf = https://github.com/

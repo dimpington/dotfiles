@@ -1,14 +1,24 @@
-add_newline = false
+add_newline = true
 
-[character]
-success_symbol = "[➜](green)"
-error_symbol = "[➜](red)"
+format = """
+$directory\
+$git_branch\
+$git_status\
+$line_break\
+$character
+"""
 
 [directory]
-truncation_length = 3
+style = "blue bold"
+truncate_to_repo = false
 
 [git_branch]
 symbol = "🌱 "
+style = "green bold"
 
 [git_status]
-style = "yellow"
+style = "red bold"
+
+[character]
+success_symbol = "[➜](bold green) "
+error_symbol = "[➜](bold red) "
